@@ -14,15 +14,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  threejs,
+  goodenough,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +38,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Developer",
+    icon: mobile,
+  },
+  {
+    title: "Real-time Systems",
     icon: creator,
   },
 ];
@@ -108,93 +104,53 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Engineer",
+    company_name: "Good Enough Energy",
+    icon: goodenough,
+    iconBg: "#1a2e1a",
+    date: "Aug 2026 - Present",
+    points: [
+      "Developing real-time energy monitoring dashboards using React.js with live data visualization for Battery Energy Storage Systems (BESS).",
+      "Building and maintaining MQTT-based communication pipelines using HiveMQ Cloud for reliable device-to-cloud data streaming.",
+      "Developing Node.js and Python backend services with RESTful APIs for energy data ingestion, processing, and analytics.",
+      "Designing and managing PostgreSQL databases for structured storage of energy system metrics and event logs.",
+      "Building SLD (Single Line Diagram) visualizations and emulator interfaces for monitoring live system states.",
+      "Implementing WebSocket-based real-time data streaming to ensure sub-second UI updates on monitoring dashboards.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Magebytes Pvt Ltd",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2025 - July 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and shipped production features for client-facing applications using React.js and Next.js, improving UI consistency across modules.",
+      "Integrated RESTful APIs and optimized component rendering, reducing unnecessary re-renders and improving page load responsiveness.",
+      "Implemented routing with the Next.js App Router, including dynamic and nested routes, to support scalable multi-page applications.",
+      "Managed application state using React Hooks and the Context API, simplifying data flow across components.",
+      "Partnered with backend engineers on API contracts, debugging, and issue resolution to keep releases on schedule."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Development Engineer",
+    company_name: "First-Meridian Business Services Limited",
+    icon: backend,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2024 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed, developed, and deployed RESTful APIs using Express.js, implementing full CRUD functionality for core services.",
+      "Tested and validated APIs using Postman, catching and resolving edge-case bugs prior to deployment.",
+      "Integrated third-party APIs to enable dynamic, real-time data handling within application workflows."
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials = [];
 
 const projects = [
   {
